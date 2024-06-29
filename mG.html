@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeGenerator</title>
+    <link rel="stylesheet" href="mG.css">
+</head>
+<body>
+    <section class ='generator'>
+        <div class='heading'>
+            <h1>Meme Generator</h1>
+            <p>Fill out the following fields to create your own meme</p>
+        </div>
+
+        <div class="inputFields">
+            <form action="#" id="inputForm">
+                <label for="topTextID"></label> Type the text you want on the top of your meme here:</label>
+                <input type="text" name="topTextInput" class="textBox" id="topTextID" />
+                <label for="bottomTextID">Type the text you want on the bottom of your meme here:</label>
+                <input type="text" name="bottomTextInput" class="textBox" id="bottomTextID"/>
+                <label for="URLID">Paste image URL here:</label>
+                <input type="url" name="memeImage"class="textBox" id="URLID"/>
+                <input type='submit' value="Generate Meme"/>
+            </form>
+        </div>
+    </section>
+        <div class = 'newMemes'>
+            
+        </div>
+
+    <section id = 'memeField'>
+    </section>
+    <script src = 'mG.js'></script>
+</body>
+</html>
